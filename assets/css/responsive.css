@@ -1,0 +1,568 @@
+@media only screen and (min-width: 1900px)
+{
+  .banner:before
+  {
+    bottom: -40px;
+    height: 88px;
+  }
+}
+/*@media only screen and (max-width: 1666px)
+{
+  .banner:before
+  {
+    bottom: -30px;
+    height: 77px;
+  }
+}*/
+@media only screen and (max-width: 1300px)
+{
+  footer ul li:first-child::before
+  {
+    right: -224px;
+    background-size: 115px;
+  }
+}
+@media only screen and (max-width: 1200px)
+{
+  footer ul li:first-child::before
+  {
+    right: -219px;
+    background-size: 108px;
+    top: -50px;
+  }
+  .banner .carousel-item.active .carousel-caption
+  {
+    bottom: 40px;
+  }
+  .banner .carousel-caption h3
+  {
+    font-size: 55px;
+  }
+  .banner .carousel-caption h3 span
+  {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 1024px)
+{
+  .logo {
+    top: 15px;
+    width: 160px;
+  }
+  .banner::before {
+    bottom: -17px;
+    height: 50px;
+  }
+  .puja_schedule_date p
+  {
+    font-size: 18px;
+  }
+  footer ul li:first-child {
+    padding: 5% 8% 2%;
+  }
+  footer ul li:first-child::before {
+    right: -182px;
+    top: -56px;
+  }
+}
+@media only screen and (max-width: 991px)
+{
+  .container
+  {
+    max-width: 95%;
+  }
+  .current_committee_text h4, .puja_schedule_details h4, .announcements_ul li a .announcements_text h4
+  {
+    font-size: 16px;
+  }
+  .current_committee ul li .current_committee_img
+  {
+    flex: 0 0 60px;
+    height: 60px;
+  }
+  .current_committee ul li .current_committee_text
+  {
+    flex: 0 0 calc(100% - 60px);
+  }
+  .puja_schedule_date p {
+    font-size: 16px;
+  }
+  .puja_schedule_date p span {
+    font-size: 12px;
+  }
+  .puja_schedule li .puja_schedule_date
+  {
+    flex: 0 0 80px;
+    max-width: 80px;
+    height: 80px;
+  }
+  .puja_schedule li .puja_schedule_details
+  {
+    flex: 0 0 calc(100% - 80px);
+  }
+  .become_member .about_sections_headding, .request_visit .about_sections_headding, .donate_ibna .about_sections_headding
+  {
+    font-size: 16px;
+  }
+  footer ul li:first-child {
+    padding: 5% 6% 2%;
+  }
+  footer ul li:first-child::before {
+    right: -170px;
+    top: -56px;
+  }
+  table
+  {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 900px)
+{
+  .top_contact_col
+  {
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .social_media_col
+  {
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .banner .carousel-caption h3 {
+    font-size: 35px;
+  }
+  .banner .carousel-caption h3 span {
+    font-size: 60px;
+  }
+  .puja_timer_ul li span
+  {
+    font-size: 55px;
+  }
+  .puja_timer_ul li,
+  .banner_bottom h3
+  {
+    font-size: 18px;
+  }
+  .current_committee {
+    padding: 4px 0;
+  }
+  .donate_ibna .about_sections_headding
+  {
+    padding: 15px 10px;
+  }
+  footer ul li:first-child {
+    padding: 5% 6% 2% 3%;
+  }
+  footer ul li:first-child::before {
+    right: -154px;
+    top: -36px;
+  }
+}
+@media only screen and (max-width: 840px)
+{
+  .logo {
+    top: 5px;
+    width: 150px;
+  }
+  .container 
+  {
+    max-width: 100%;
+  }
+  .donate_ibna .about_sections_body
+  {
+    padding: 22px 20px;
+  }
+  .covid_protocols h1
+  {
+    font-size: 30px;
+  }
+  footer ul
+  {
+    flex-direction: column-reverse;
+  }
+  footer ul li
+  {
+    flex: 0 0 100%;
+  }
+  footer ul li:first-child {
+    padding: 5% 10%;
+  }
+  footer ul li .copyright
+  {
+    position: relative;
+  }
+  footer ul li:first-child::before {
+    right: 31px;
+    top: -11px;
+    width: 165px;
+  }
+  .faq-body
+  {
+    height: inherit;
+  }
+}
+@media only screen and (max-width: 800px)
+{
+  .current_committee ul li .current_committee_img {
+    flex: 0 0 45px;
+    height: 45px;
+  }
+  .current_committee ul li .current_committee_text {
+    flex: 0 0 calc(100% - 45px);
+  }
+  .current_committee_text p
+  {
+    font-size: 12px;
+  }
+  .puja_schedule_date p {
+    font-size: 14px;
+  }
+  .puja_schedule_date p span {
+    font-size: 10px;
+  }
+  .puja_schedule li .puja_schedule_date {
+    flex: 0 0 65px;
+    max-width: 65px;
+    height: 65px;
+  }
+  .puja_schedule li .puja_schedule_details {
+    flex: 0 0 calc(100% - 65px);
+  }
+  .announcements_ul li a .announcements_icon
+  {
+    flex: 0 0 60px;
+    max-width: 60px;
+    height: 60px;
+  }
+  .announcements_ul li a .announcements_text
+  {
+    flex: 0 0 calc(100% - 60px);
+  }
+  .scrollbar
+  {
+    height: 220px;
+  }
+  .owl-gallery .owl-nav .owl-prev, .owl-gallery .owl-nav .owl-next
+  {
+    top: inherit;
+    bottom: -65px;
+  }
+  .owl-gallery .owl-nav .owl-prev
+  {
+    left: calc(50% - 20px);
+  }
+  .owl-gallery .owl-nav .owl-next
+  {
+    right: calc(50% - 20px);
+  }
+}
+@media only screen and (max-width: 767px)
+{
+  .banner .carousel-item.active .carousel-caption {
+    bottom: 25px;
+  }
+  .current_committee_text h4, .puja_schedule_details h4, .announcements_ul li a .announcements_text h4 {
+    font-size: 14px;
+  }
+  .current_committee_text h4 span, .puja_schedule_details p {
+    font-size: 11px;
+  }
+  .current_committee_text p, .puja_schedule_details .btn_more {
+    font-size: 10px;    
+  }
+  .about_sections ul li
+  {
+    flex: 0 0 60%;
+    padding: 5px 0;
+  }
+  .covid_protocols .col-md-6.col-12
+  {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .modal-dialog
+  {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 700px)
+{
+  .banner::before {
+    bottom: -20px;
+    height: 40px;
+  }
+  .carousel-indicators {
+    bottom: 6px;
+  }
+  .logo {
+    top: -1px;
+    width: 130px;
+  }
+  .banner .carousel-caption h3 {
+    font-size: 25px;
+  }
+  .banner .carousel-caption h3 span {
+    font-size: 50px;
+  }
+  .banner .carousel-caption
+  {
+    padding: 0;
+  }
+  
+  .banner_bottom
+  {
+    padding: 30px 0 0;
+  }
+  .banner_bottom .row
+  {
+    justify-content: center;
+  }
+  .banner_bottom .col-sm-4 
+  {
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin: 0 0 15px;
+  }
+  .gallery {
+    padding: 40px 0;
+  }
+  .plus
+  {
+    width: 30px;
+    height: 30px;
+  }
+  .covid_protocols h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 667px)
+{
+  .puja_timer_ul li span {
+    font-size: 40px;
+  }
+  .puja_timer_ul li
+  {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px)
+{
+  header ul.top_contact li
+  {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 540px)
+{
+  .top_contact_col {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding: 0;
+  }
+  .social_media_col {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .social_media li img {
+    width: 16px;
+  }
+  .banner::before {
+    bottom: -15px;
+    height: 25px;
+  }
+  .carousel-indicators
+  {
+    display: none;
+  }
+  .banner .carousel-caption
+  {
+    right: 24%;
+  }
+  .banner .carousel-caption h3 span {
+    font-size: 35px;
+  }
+  .puja_timer_ul li span {
+    font-size: 35px;
+  }
+  .banner_bottom .col-sm-4 {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  .about_sections ul li {
+    flex: 0 0 80%;
+  }
+  .covid_protocols .col-md-6.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  .covid_protocols h1
+  {
+    margin-left: 10px;
+  }
+  footer ul li:first-child {
+    padding: 5%;
+  }
+  footer ul li:first-child::before {
+    right: 25px;
+    top: -11px;
+    width: 107px;
+    background-size: 100px;
+  }
+}
+@media only screen and (max-width: 500px)
+{
+  .banner .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .banner .carousel-caption h3 span {
+    font-size: 30px;
+  }
+  .banner .carousel-item.active .carousel-caption {
+    bottom: 20px;
+  }
+  .contact_form h1
+  {
+    font-size: 25px;
+  }
+  .contact_form .form-control
+  {
+    font-size: 14px;
+    height: 45px;
+  }
+  select.form-control
+  {
+    background-size: 12px !important;
+  }
+  footer ul li .contact_details h1
+  {
+    font-size: 20px;
+  }
+  footer ul li .contact_details p,
+  footer ul li .copyright p
+  {
+    font-size: 12px;
+  }
+  footer ul li .contact_details h3
+  {
+    font-size: 14px;
+  }
+  footer ul li .copyright
+  {
+    padding-bottom: 0;
+  }
+  .btn_submit
+  {
+    font-size: 15px;
+  }
+  footer ul li:first-child::before
+  {
+    top: 3px;
+  }
+  .faq_sec
+  {
+    padding: 20px 10px;
+  }
+  .faq_sec h1
+  {
+    font-size: 25px;
+  }
+  details[open] p
+  {
+    margin-left: 26px;
+    padding-left: 21px;
+  }
+}
+@media only screen and (max-width: 480px)
+{
+  header ul.top_contact li {
+    font-size: 10px;
+  }
+  .logo {
+    top: -1px;
+    width: 100px;
+  }
+  .covid_protocols ul
+  {
+    padding: 0 10px 0 30px;
+  }
+}
+@media only screen and (max-width: 440px)
+{
+  summary
+  {
+    font-size: 14px;
+  }
+  details[open] summary::after
+  {
+    font-size: 35px;
+  }
+  summary::after
+  {
+    font-size: 20px;
+  }
+  details[open] p
+  {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 420px)
+{
+  header ul.top_contact li img {
+    width: 12px;
+  }
+  .social_media_col
+  {
+    padding-left: 0;
+  }
+  .banner_bottom .col-sm-4 {
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+  }
+  .about_sections ul li {
+    flex: 0 0 90%;
+  }
+  footer ul li:first-child {
+    padding: 5% 20% 5% 5%;
+  }
+}
+@media only screen and (max-width: 400px)
+{
+  header ul.top_contact li
+  {
+    padding: 8px 5px;
+  }
+  .logo {
+    top: -1px;
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 375px)
+{
+  header ul.top_contact li {
+    font-size: 9px;
+  }
+  header ul.top_contact li img {
+    width: 10px;
+    margin-right: 2px;
+  }
+  .social_media li img {
+    width: 15px;
+  }
+  .banner .carousel-caption h3 {
+    font-size: 16px;
+  }
+  .banner .carousel-caption h3 span {
+    font-size: 25px;
+  }
+}
