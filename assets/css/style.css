@@ -683,13 +683,14 @@ header ul.top_contact li img
  	font-weight: 700;
  	text-transform: uppercase;
  	color: #181818;
- 	margin: 0 0 10px;
- }
- footer ul li .contact_details h1
- {
      border-bottom: 1px solid #181818;
      padding-bottom: 8px;
      margin-bottom: 15px;
+ }
+ .sec-title .title
+ {
+     width: 30%;
+     margin: 0 auto 15px;
  }
   footer ul li .contact_details p
   {

@@ -47,6 +47,9 @@ let countDown = new Date('Oct 01, 2022 00:00:00').getTime(),
     margin:0,
     nav:false,
     dots:false,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
     responsive:{
         0:{
             items:1
